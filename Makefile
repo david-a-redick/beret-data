@@ -24,4 +24,11 @@ install:
 uninstall:
 	rm -rf $(PATH_TO_DATA)
 
+debian-build:
+	cd .. && tar -jcf beret-data_1.2.2.orig.tar.bz2 beret-data-1.2.2
+	debuild -us -uc
+
+debian-clean:
+	rm -rf debian/.debhelper
+	rm -rf debian/beret-data
 

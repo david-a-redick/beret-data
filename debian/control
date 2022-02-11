@@ -1,0 +1,12 @@
+Source: beret-data
+Maintainer: David A. Redick <david.a.redick@member.fsf.org>
+Section: games
+Priority: optional
+Standards-Version: 3.9.2
+Build-Depends:
+Homepage: https://github.com/david-a-redick/beret-data
+
+Package: beret
+Architecture: any
+Depends:
+Description: Data files for the game beret.
