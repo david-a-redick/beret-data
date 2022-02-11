@@ -18,5 +18,5 @@ DIRS=images music rooms sfx
 install:
 	$(foreach DIR, $(DIRS), \
 		mkdir -p $(PATH_TO_DATA)/$(DIR); \
-		find images -type f | xargs -I FILE install --mode=644 FILE $(PATH_TO_DATA)/$(DIR); \
+		find $(DIR) -type f | xargs -I FILE install --mode=644 FILE $(PATH_TO_DATA)/$(DIR); \
 	)
