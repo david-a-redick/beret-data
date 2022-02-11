@@ -1,9 +1,6 @@
-#PREFIX ?= $(HOME)/.local
-#PREFIX ?= .
+PREFIX ?= $(HOME)/.local
 
-#PATH_TO_DATA ?= $(PREFIX)/share/games/beret
-PATH_TO_DATA ?= ./foo
-
+PATH_TO_DATA ?= $(PREFIX)/share/games/beret
 
 default:
 	@echo To examine settings:
