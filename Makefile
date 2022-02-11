@@ -31,4 +31,4 @@ debian-build:
 debian-clean:
 	rm -rf debian/.debhelper
 	rm -rf debian/beret-data
-
+	rm -f debian/debhelper-build-stamp

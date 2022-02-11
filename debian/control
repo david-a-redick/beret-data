@@ -8,7 +8,7 @@ Homepage: https://github.com/david-a-redick/beret-data
 
 Package: beret-data
 Architecture: any
-Depends:
+Depends: ${misc:Depends}
 Description: Data files for the game beret.
  A 2D puzzle-platformer game about a scientist, astonishingly named Beret,
  who has gained telekinetic abilities through his research at the Evil Corporation.
